@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Node / Slidev
+slidev/node_modules/
+slidev/dist/
+slidev/.slidev/
+slidev/*.log
+slidev/slides-export/
+slidev/slides-export.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
