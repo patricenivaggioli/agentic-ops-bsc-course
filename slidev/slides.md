@@ -1,29 +1,22 @@
 ---
 theme: default
-title: Agentic Ops for Network Engineers
-info: |
-  ## Agentic Ops for Network Engineers
-  A first-year bachelor introduction to LLM-powered agents for network operations.
-class: text-center
 highlighter: shiki
-drawings:
-  persist: false
 transition: slide-left
 mdc: true
 ---
 
-# Agentic Ops for Network Engineers
+# AgenticOps for Networks
 
-<div class="pt-8">
-  <span class="text-orange-400 font-bold text-xl">AI Fundamentals — Module 3</span>
+<div class="pt-10">
+  <span class="text-orange-400 font-bold text-xl">AI Foundations for Networks - Module 8</span>
 </div>
 
 <div class="pt-6 text-left inline-block">
-  <p class="text-sm text-gray-300">Patrice Nivaggioli</p>
+  <p class="text-sm text-gray-300">Guillaume Ladhuie, Patrice Nivaggioli</p>
 </div>
 
 <div class="abs-br m-6 text-sm text-gray-400">
-  2026
+  ESGI, 2026
 </div>
 
 ---

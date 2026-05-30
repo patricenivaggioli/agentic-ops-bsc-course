@@ -1,15 +1,5 @@
-/*
- * Fix: Goto dialog stays visible / won't close with many slides.
- */
-#slidev-goto-dialog.-top-20 {
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-
-#slidev-goto-dialog .autocomplete-list {
-  max-height: 60vh !important;
-  overflow-y: auto !important;
+#slidev-goto-dialog[class*="-top-"] {
+  display: none !important;
 }
 
 .slidev-code {
@@ -22,6 +12,7 @@
   padding: 0.4em 0.4em;
 }
 
-.slidev-layout .space-y-1 > h3 ~ h3 {
-  margin-top: 1.75rem !important;
-}
+/* Add breathing room before h3 that follows other content */
+/*.slidev-layout .space-y-1 > h3 ~ h3 { */
+/*  margin-top: 1.75rem !important; */
+/*}*/
